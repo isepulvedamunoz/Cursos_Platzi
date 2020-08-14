@@ -1,0 +1,67 @@
+Crecimiento asintonico
+* no importan variaciones pequeñas
+* Mejor de los casos, promedios, PEOR DE LOS CASOS
+* El enfoque se centra en lo que pasa conforme el tamaño del problema se acerca al infinito.
+* Nada mas importa el termino de amyor tamaño.
+
+Busqueda lineal
+*Busca en todos los elementos de manera secuencial
+
+Busqueda binaria
+*Divide y conquista
+*El problema se divide en 2 en cada iteracion.
+
+Ordenamiento de burbuja
+*Compara elementos adyacentes y los intercambia si no estan ordenados.
+
+Ordenamiento por mezcla
+*utiliza el algoritmo de divide y conquista
+*Ordena de tal forma que solo tengamos 0 y 1
+
+Ambientes virtuales
+*Permiten aislar el ambiente para poder instalar diversas versiones
+*PIP permite instalar paquetes de terceros
+
+Graficar
+*No hay que buscar patrones donde no los hay
+*variables independientes pertenecen a X
+*variables dependientes a Y
+*Permiten encontrar patrones rapidamente
+
+Optimizacion
+*resolver problemas de manera computacional
+
+Las clases
+*tipos abstractos que permiten modelar al mundo
+
+Decomposicion
+*Un problema, transformarlo en problemas mas chicos
+
+Abstraccion
+*Utilizar algo, sin importar su funcionamiento interno
+
+Reconocimiento de patrones
+*A traves de graficos y algoritmos
+
+Diseño de algoritmos
+*Utilizacion de recursividad, forloops, while, etc
+
+Ventajas de los datos abstractos:
+*encapsulacion, abstraccion, ...
+
+Elemento para decomponer un problema?
+*
+
+Concepto de eherncia
+*
+
+Complejidad algoritmica
+*Los recursos que se toma para resolver un problema
+
+Cuantas veces corre el loop?
+*2000
+
+Crecimiento asintonico:
+*tiende al infinito
+
+
