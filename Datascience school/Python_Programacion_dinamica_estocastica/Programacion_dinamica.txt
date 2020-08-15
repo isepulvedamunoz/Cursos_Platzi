@@ -1,0 +1,5 @@
+PROGRAMACION DINAMICA
+*Memorization: tecnica para guardar computos previos, utilizando normalmente diccionarios. Intercambia tiempo por espacio.
+*Subestructura optima: combinar soluciones optimas de subproblemas locales
+*Problemas empalmados: Resolver el mismo problema en varias ocasiones.
+*Richard Bellman: Esconder el hecho de que usaba matematicas, para ganar patrocinadores.

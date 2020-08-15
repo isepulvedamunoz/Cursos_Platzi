@@ -50,10 +50,10 @@ Ventajas de los datos abstractos:
 *encapsulacion, abstraccion, ...
 
 Elemento para decomponer un problema?
-*
+*Las clases permiten crear mayores abstracciones
 
-Concepto de eherncia
-*
+Concepto de herencia
+*Jerarquia de clases
 
 Complejidad algoritmica
 *Los recursos que se toma para resolver un problema
