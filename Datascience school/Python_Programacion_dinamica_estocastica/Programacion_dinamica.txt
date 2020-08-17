@@ -3,3 +3,75 @@ PROGRAMACION DINAMICA
 *Subestructura optima: combinar soluciones optimas de subproblemas locales
 *Problemas empalmados: Resolver el mismo problema en varias ocasiones.
 *Richard Bellman: Esconder el hecho de que usaba matematicas, para ganar patrocinadores.
+
+PROGRAMACION ESTOCASTICA
+*Un programa es deterministico si cuando se corre el imput produce el mismo output
+*Permite introducir aleatoriedad a los programas para crear simulaciones
+*Se aprovechan de que las distribuciones probabilisticas se conocen o pueden ser estimadas.
+
+
+PROBABILIDADES
+*nos preguntamos la fraccion de los eventos posibles
+*es importante calcular todas las posibilidades de un evento
+*La probabilidad de uqe un evento suceda o no, es siempre 1
+
+INFERENCIA ESTADISTICA
+*con las simulaciones podemos calcular las probabilidades
+*nos permite inferir/concluir las propiedades de una poblacion a partir de una muestra aleatoria
+*Observar pequeñas muestras, tienden a representar a la poblacion
+*FALACIA DEL APOSTADOR: despues de un evento extremo, ocurriran eventos menos extremos para nivelar la media
+*La regresion a la media señala que despues de un evento aleatorio extremo, el siguiente evento sera menos extremo.
+
+MEDIA
+*nos da una idea de donde se encuentran los valores
+
+VARIANZA
+*mide que tan alejados de la media estan los valores
+*nos dice que tan dispersos estan los valoress con respecto a la media
+*la varianza siempre debe entenderse con respecto a la media
+
+DESVIACION ESTANDAR
+*es la raiz cuadrada de la varianza
+*permite entender tambien la propagacion de los datos
+*se encuentra en la s mismas unidades de la media
+
+DISTRIBUCION NORMAL
+*Son las mas recurrentes
+*Se define completamente por su media y desviacion estandar
+*Permite calcular intervalos de confianza o que suceda algo usando la regla empirica
+
+REGLA EMPIRICA
+*se conoce como la regla 68-95-99.7
+*Señala la dispersion de los datos en una distribucion normal a una, dos y tres sigmas
+*Permite calcular probabilidades con la densidad de la distribucion normal
+
+SIMULACIONES DE MONTECARLO
+*Utilizan simulaciones para predecir resultados.
+*Perite convertir problemas deterministicos en estocasticos.
+*Se utiliza en diversas areas.
+
+MUESTREO
+*Cuando no tenemos la capacidad de acceder a toda la poblacion
+*Se ha descubierto que las muestras tienden a poseer las mismas propiedades de la poblacion total
+*En un muestreo aleatorio, cuqluier miembro de la poblacion tiene la misma probabilidad de ser escogido.
+*MUESTREO ESTRATIFICADO:se toma en consideracion las caracteristicas de la poblacion, para subagrupar, y se toman muestras de cada subgrupo.
+
+TEOREMA DEL LIMITE CENTRAL
+*Establece que muestras aleatorias de cualquier distribucion van a tener una distribucion normal
+*Permite entender cualquier distribucion como la distribucion normal de sus medias.
+
+DATOS EXPERIMENTALES
+*Es la plicacion del metodo cientifico
+*Es necesario empezar con una teroia o hipotesis
+*Basado en la hipotesis, se debe crear un experimento para falsear o validar la hipotesis.
+*Se valida o falsea una hipotesis midiendo la diferencia entre las mediciones experimentales.
+
+REGRESION LINEAL
+*Permite aproximar un conjunto de datos obtenidos de manera experimental
+*No necesariamente permite aproximar funciones lineales, sino que sus variantes permiten aproximar cualquier funcion polinómica.
+
+CONCLUSIONES
+*La programacion dinamica permite organizar problemas que tienen subestructura optima y subproblemas empalmados.
+*Las computadoras pueden resolver problemas deterministicos y estocasticos(aleatorios)
+*Podemos generar simulaciones computacionales para responder preguntas del mundo real.
+*La inferencia estadistica nos permite tener confianza de que nuestras simulaciones arrojan resultados validos.
