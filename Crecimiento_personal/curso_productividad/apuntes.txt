@@ -51,3 +51,35 @@ LA PERSONA PRODUCTIVA
 	-Es un sistema de medicion de tareas
 	-Factores de medicion: Cantidad, Calidad, Velosidad, Costo
 	-Los KPI son importantes
+
+Preguntas
+* ¿Que debo tener en cuenta para la priorizacion de tareas?
+R: Valores, costos, urgencia y resultado
+*El deepwork:
+R: Aplica filosofia monastica, bimodal, ritmica, periodistica
+*Metodos de productividad
+R: La rana, Kanban, Moscow
+*User persona
+-Atributos, mapa de empatia, vision statement, ikigai
+*Conceptos de productividad
+R: Eficacia, Eficiencia, y Efectividad
+*Las 3 P de la productividad
+R: 
+*Trabajo asincrono
+R: Diferente tiempo y lugar
+*Herramientas de autoconocimiento
+R: 6W, Dofa, Rueda de la vida
+*Entrar en Flow implica (segun Mihaly Csikszentimihay)
+R:Fluidez
+*Tablero de productividad
+R: Cantidad, calidad, velocidad y costo
+*Metodo Ivy Lee
+R: Listar 6, priorizar y elegir una, para finalizarla
+*En que consiste el GTD
+R: Recopilar, Procesar, organizar y revisar
+*Para dejar de procastinar
+R:
+*Cual es la zona entre Planner y Doer
+R:
+*Una persona productiva aplica/tiene
+R:
