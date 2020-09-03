@@ -1,0 +1,146 @@
+********PROBABILIDAD CONDICIONAL***************
+-es la probabilidad de que ocurra un evento A, sabiendo que tambien sucede otro evento B. Depende de otro evento.
+
+TEOREMA DE BAYES
+-liklyhood certeza de la probabilidad sea cierta
+-PRIOR: hipotesis antes de la evidencia
+-POSTERIOR: Ya teniendo evidencia como actualizamos cierta creencia.
+-Evento
+-Hipotesis
+
+A grandes rasgos, nos permite medir nuestra certidumbre 
+con respecto a un suceso tomando en cuenta nuestro 
+conocimiento previo y la evidencia que tenemos a nuestra 
+disposición.
+
+Usos
+
+- Turing y los nazis
+- Finanzas
+- Derecho
+- Inteligencia artificial
+
+
+
+
+
+********MENTIRAS ESTADISTICAS************
+
+
+
+GARBAGE IN GARBAGE OUT (GIGO)
+-La calidad de los datos e sigual de fundamental que los computos
+-Cuando los datos son errados, los computos seran errados.
+-Datos errados, conclusiones erradas
+
+IMAGENES ENGAÑOSAS
+-Las visualizaciones son muy importantes para entender los datos
+-Jugar con la escala puede llevar a conclusiones incorrectas
+-Nunca confiar en una grafica sin escalas ni etiquetas
+
+CUM HOC ERGO PROPTER HOC
+-Dos variables estan positivamente correlacionadas, cuando se 
+mueven en la misma direccion.
+-Correlacion no implica casualidad
+-Pueden existir variable secondidas que generan la correlacion
+-Despues de esto, eso; entonces a consecuencia de esto, eso.
+
+PREJUICIO EN EL MUESTREO
+-Para que un muestreo pueda servir como base para la inferencia,
+tiene que ser aleatorio y representativo.
+-El prejuicio en el muestreo elimina la representatividad
+de las muestras.
+-A veces la muestra es dificil conseguirla, por lo que
+se utiliza a la poblacion de mas facil acceso.
+
+FALACIA DEL FRANCOTIRADOR
+-Escoger el objetivo y despues los datos.
+
+PORCENTAJES CONFUSOS
+-Cuando no sabemos la cuenta total del cual se obtiene un porcentaje,
+tenemos el riesgo de concluir falsos resultados.
+-Siempre es improtante ver el contexto.
+- Los porcentajes, en vacio, no significan mucho.
+
+FALACIA DE REGRESION
+-Muchos eventos fluctuan naturalmente, y no significa que eso se mantiene.
+-No se deben aplicar medidas correctivas.
+Se debe respetar la regresion a la media.
+
+*************MACHINE LEARNING****************
+
+FEATURES VECTORS
+-Se utilizan para representar caractisticas simbolicas,
+o numericas llamadas features.
+-Permiten analizar un objeto desde una perspectiva matematica.
+-Los algoritmos de ML tipicamente requieren presentaciones
+numericas para poder ejecutar el computo.
+-Uno de los features vectors mas conocidos es la representacion del color
+a traves de RGB.
+-Ejemplos: 
+	Procesamiento de imagenes: Gradientes, bordes, areas, colores, etc.
+	Reconocimiento de voz: Distancia de sonidos, nivel de ruido, etc
+	Spam:  Direccion IP, frecuencia de palabras, etc.
+
+METRICAS DE DISTANCIA
+- Muchos algoritmos pueden clasificarse como de optimizacion.
+- Lo que se desea optimizar es una funcion, que en muchas ocaciones
+se refiere a la distancia entre features.
+- Distancia euclidiana
+- Distancia de Manhattan
+
+
+INTRODUCCION AL AGRUPAMIENTO (CLUSTERING)
+-Es un proceso mediante el cual se agrupan objetos similares
+en clusters que los identifican.
+-Se clasifica como aprendizaje no supervisado ya que no requiere
+la utilizacion de etiquetas.
+-Permite entender la estructura de los datos y la similitud
+entre los mismos.
+-Es utilizado en motores de recomendacion, analisis de redes
+sociales, riesgo crediticio, riesgos medicos, etc.
+
+
+AGRUPAMIENTO JERARQUICO
+-Es un algoritmo que agrupa objetos similares en grupos 
+llamados clusteres.
+-El algoritmo empieza tratando a cada objeto como cluster 
+individual y luego realizar los siguientes pasos de manera
+recursiva:
+	-Identifica dos clusteres con  menor distancia(similares)
+	-Agrupa los dos clusteres en uno nuevo.
+-El output final es un dendograma que muestra la relacion
+entre objetos y grupos.
+-Es importante determinar que medida de distancia vamos a utilizar
+en cada cluster (linkage criteria)
+
+AGRUPAMIENTO K-MEANS
+-Es un algoritmo que agrupa utilizando centroides.
+-El algoritmo funciona asignando puntos al azar
+(K define el numero inicial de clusters) y despues:
+      - En cada iteracion el punto se ajusta a su nuevo centroide
+      y cada punto se recalcula con la distancia con respecto a 
+      los centroides.
+      - Los puntos se reasignan al nuevo centro.
+      - El algoritmo se repite de manera iterativa hasta que ya no existen mejoras.
+
+
+INTRODUCCION A LA CLASIFICACION
+- Es el proceso mediante el cual predice la clase de cierto dato.
+- Es un tipo de aprendizaje supervisado, ya que para funcionar se encesitan
+ las etiquetas de los datos (Labels)
+-Se utiliza en muchos dominios, incluyendo la medicina, aprobacion
+vrediticia, reconocimiento de imagenes, vehiculos autonomos, etc.
+- Sigue dos pasos: aprendizaje y clasificacion.
+
+
+CLASIFICACION K-NEAREST NEIGHBORS
+
+- Parte del supuesto de que ya tenemos un conjunto de datos clasificado.
+- Trata de encontrar los vecinos mas cercanos.
+- K se refiere a la cantidad de vecinos que se utilizan para clasificar
+un ejemplo que aun no ha sido clasificado.
+- Es sencillo de implementar y tiene aplicaciones en medicina, finanzas,
+agricultura, etc.
+- Es computacionalmente muy costoso y no sirve con datos de alta
+dimensionalidad.
