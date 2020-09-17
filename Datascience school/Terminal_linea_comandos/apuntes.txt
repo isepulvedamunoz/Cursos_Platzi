@@ -55,10 +55,27 @@ rmdir: eliminar un directorio. En este caso es importante resaltar que, para que
 ¡Desafío!
 El desafío de esta clase consiste en utilizar todos los comandos y recursos que estudiamos hasta ahora para organizar tu espacio de trabajo como desarrolladora.
 
-Ve a tu carpeta personal (/home/tunombre).
-Crea una carpeta llamada development y entra en ella.
-Crea una nueva carpeta con el nombre del próximo curso que vas a tomar en Platzi y entra en ella. Te recomiendo escribir los nombres de carpetas o archivos en minúsculas y no usar espacios ni tildes para evitar dificultades (por ejemplo: prog_basica o programacion-basica).
-¡Ay, disculpa! Debíamos guardar las carpetas de los cursos en otro lugar. Mueve la carpeta de tu próximo curso a esta nueva ubicación: /home/tunombre/learning/tuproximocurso. Puedes mover la carpeta como prefieras, con el comando para mover directorios o los comandos de copiar y eliminar.
-Cualquier duda o dificultad que te encuentres puedes dejarla en la sección de comentarios. Estaremos atentos para ayudarte.
+
+
+COMANDO GREP, CAT, SED, AWK
+- GREP sirve para buscar alguna palabra o parte de ella en un archivo
+- CAT sirve para buscar el contenido o parte de el
+	CAT head (primeras lineas)
+	CAT tail (ulimas lineas)
+- SED sirve para modificar o quitar parte del contenido
+- AWK sirve para mostrar parte del contenido, delimitado por signos, y utilizando
+	sentencias de script (print, calculos, etc).
+
+COMANDOS VARISO DE TEXTO
+
+- MKDIR: crear directorio
+- TOUCH: crear archivo
+- 
+
+
+
+
+
+
 
 

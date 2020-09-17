@@ -1,0 +1,67 @@
+1 What ... you do?
+  r: do (mala)
+2 Where ... she work?
+  r:does
+
+3... you a student?
+  r: am
+4 I ... an English student
+  r: was
+5 Jon ... in an office
+  r: works
+6 ... she ... that book right now?
+  R: IS/READING
+7
+My family and I … to the US today.
+
+8 What ... you ... during the weekend?
+  r: did/doing
+9 .... he ... for the exam?
+   r: did/study
+10 While I ... ...tv, the phone rang
+   r: was/watching
+11 ... she ... travel next weekend?
+  r: is/going to
+12 She … probably … medicine next year, she’s not sure yet.
+   r: will/study
+13
+We ... participate in the next tournament, we don't have enough players.
+14
+If I study for the exam...
+15
+I won't have time to play videogames if I ...
+16 I ... this movie many times. I love it!
+   r: have watched
+17
+... you ever ... abroad?
+18 Marty and Doc … to improve their skills for videogames all week.
+   r: have been trying
+19 Before yesterday, I ... never ... such a good rock band.
+  r:had/heard
+
+20 There are many options at the beach. We … swim, play volleyball or even set a BBQ.
+  r: would like
+21 My boss tells me I ... finish the report by today, it is mandatory.
+  r: must
+22 At the library we ... to yell or make noises.
+  r:negative
+23 If you train hard, soon you will ... to beat your own record.
+   r: be able
+24
+Usually, a bike ... a motorcycle, specially on the road.
+25
+The information is quite easy, It ... water
+26 I failed my test, I ... more for it
+  r: should have studied
+27 Jane missed the bus this morning, She ... earlier.
+  r: should have woke up
+28 I … things differently, the way things are now is not the best.
+  r:would have done (MALA)
+  r: shouldn't have done(mala)
+  r: must have done
+
+29 When I was younger I ... in a small town with my family.
+	used to/would
+30 I remember my friend Dominique, we … always … to the park after school.
+ r: used to/  would/go malas
+ r: did/go (mala)
