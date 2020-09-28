@@ -1,0 +1,24 @@
+TIPOS DE DATOS
+
+Primitivos:
+ int, str, bool, float, hex, oct, datetime, obj especiales
+
+Estructurados:
+ Baess de Datos, DataWarehouses
+
+Semi-estructurados:
+ Json, Tabulares(csv,excel)
+
+No estructurados:
+ HTML, texto libre, CV, Img, audio, SocialMedia, Datos Cientificos
+
+
+FUENTES DE DATOS
+
+User analytics: Comportamiento del usuario en aplicaciones
+IoT: Datos de hardware (autos, componentes, etc)
+
+WEB SCRAPING
+
+crear ambiente virtual con anaconda
+	conda create --name platzi_data ........

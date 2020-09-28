@@ -1,0 +1,6 @@
+- descargar anaconda:
+- instalar anaconda: bash Anaconda3-5.2.0-Linux-x86_64.sh
+- asignar anaconda al path: export PATH=~/anaconda3/bin:$PATH 
+- crear ambiente: conda create --name nombre_de_ambiente (librerias)
+- activar ambiente: source activate nombre_env
+- desactivar: 
