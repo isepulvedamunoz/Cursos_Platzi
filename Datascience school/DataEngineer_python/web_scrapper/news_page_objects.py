@@ -12,6 +12,14 @@ class HomePage:
 
         self._visit(url)
 
+    @property
+    def article_links(self):
+        link_list = []
+        for link in self._select
+    
+    def _select(self, query_string):
+        return self._html.select(query_string)
+
     def _visit(self, url):
         response = requests.get(url)
 

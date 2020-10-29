@@ -1,0 +1,4 @@
+Links = ////div[@class="cont_378_e_2015"]//h3/a/text()
+Title = //h1[@id="cuDetalle_cuTitular_tituloNoticia"]/text()
+Resume = //h2[@id="cuDetalle_cuTitular_bajadaNoticia"]/text()
+Cuerpo = //div[@class="EmolText"]/div/text()
