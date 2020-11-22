@@ -1,0 +1,56 @@
+XPATH LANGUAGE
+
+- Formato:  //div/span//h1[@class="title"][1]
+- Tipos de nodos:
+	- nodo: es lo mismo que una etiqueta html, y todo lo que lo contiene.
+	
+- Expresiones:
+	- / : nodo raiz, extrae todo el documento
+	- //: salto entre nodos
+	- text(): texto entre nodos
+	- //xxxx/.. : selecciona todos los nodos padres
+	- //xxx/. : selecciona el nodo actual
+
+	elemento[n]		Numero de elemento
+	
+	elemento[last()]	Ultimo elemento
+	elemento[@attr=value]	Atributo con un valor especifico
+	.nombre-clase		Clase
+	#nombre-id		ID
+
+	XPATH	
+	!=	
+	position()	
+	attr1 AND attr2	
+	selector[attr1 OR attr2]	
+	NOT()
+
+	$$('html > *') : Selecciona todos los elementos hijos del html
+	$$('*') : Selecciona todos los documentos
+	
+- WILDCARDS
+	/* : Todos los nodos despues de la expresion
+	//*: Saltar niveles en todas direcciones
+	@*: traer atributos de todos los nodos
+	/node() : Trae todos los nodos del contenido, diferente al asterisco.
+
+-Texto a buscar
+
+	start-with(" ") : Empieza con
+	contains(" ") : llama por el texto contenido en
+	end-with(" ") : llama al texto que termina en
+	matches(" ") : llama a un texto que coincida con una expresion regular
+
+- AXES
+	self::div-> se abrevia con . y se refiere al mismo nodo o div
+	child::div-> Trae los hijos del div
+	descendant::div-> Trae todos los nodos que estan en niveles inferiores
+	descendant-or-self::div-> Trae la union los descendientes y el mismo nodo div
+
+
+PREGUNTAS FALLIDAS:
+- Con que predicado extraigo los nodos a partir del tercero?
+- Expresion que trae todos los nodos de un doc HTML
+- En que problema podria meterme por no respetar robots.txt
+- Expresion que extrae el texto de todos los span de un documento HTML
+- Expresion que extrae atributos src de todas las img de un HTML

@@ -3,7 +3,7 @@ import lxml.html as html
 import os
 import datetime
 
-HOME_URL = 'https://www.publimetro.cl/cl/'
+HOME_URL = 'https://www.emol.com/'
 
 XPATH_LINK_TO_ARTICLE = '//div[@class="cont_378_e_2015"]//h3/a/text()'
 XPATH_TITLE = '//h1[@id="cuDetalle_cuTitular_tituloNoticia"]/text()'
@@ -22,7 +22,7 @@ def parse_notice(link, today):
                 title = parsed.xpath(XPATH_TITLE)[0]
                 title = title.replace('\"','')
                 summary = parsed.xpath(XPATH_SUMMARY)[0]
-                date = parsed.xpath(XPATH_DATE)[0]
+                body = parsed.xpath(XPATH_CUERPO)
             except IndexError:
                 return
 
@@ -31,7 +31,9 @@ def parse_notice(link, today):
                 f.write('\n\n')
                 f.write(summary)
                 f.write('\n\n')
-                f.write(date)
+                for p in body:
+                    f.write(p)
+                    f.write('\n')
 
         else:
             raise ValueError(f'Error: {response.status_code}')
