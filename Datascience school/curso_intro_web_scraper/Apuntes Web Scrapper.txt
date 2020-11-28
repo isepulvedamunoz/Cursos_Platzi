@@ -50,7 +50,13 @@ XPATH LANGUAGE
 
 PREGUNTAS FALLIDAS:
 - Con que predicado extraigo los nodos a partir del tercero?
+  xxxx > 3
 - Expresion que trae todos los nodos de un doc HTML
+ /html
 - En que problema podria meterme por no respetar robots.txt
+ 
 - Expresion que extrae el texto de todos los span de un documento HTML
+	//span/text()
 - Expresion que extrae atributos src de todas las img de un HTML
+	//img/@src
+
