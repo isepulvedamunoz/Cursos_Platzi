@@ -1,0 +1,16 @@
+- funcion iter: transforma a un objeto iterable
+- -a : para pasar argumentos en consola
+- json para scraper
+- csv para Datascience
+- Generador: una funcion dentro de python que recuerda su estado en las siguientes invocaciones
+- datos iterables: list, dict, set, str
+- Scrapy reescribe los archivos de resultados anteriores? = Falso
+- la palabra yield, le da atributos de generador a un metodo parse? = Verdadero
+- Metodo Parse permite configurar un spider = Verdadero (MALA)
+- User_Agent, permite determinar la identidad de un spider
+- flag -o, de output, para guardar un archivo
+- resonse.headers = permite ver las cabeceras 
+- para que usar entorno virtual? = para no generar conflicto con otras dependencias
+- atributo que identifica como unico a un spider es "name"
+- que son los spiders = archivos de python que contienen como resultado hacer scraping de una web (MALA)
+- Dentro de la consola de Scrapy, ¿qué comando nos permite ver el método de una petición http? = response.method (MALA)
