@@ -9,7 +9,7 @@ import scrapy
 class SpiderCIA(scrapy.Spider):
     name = 'cia'
     start_urls = [
-        'https://www.cia.gov/library/readingroom/historical-collections'
+        'https://www.cia.gov/readingroom/historical-collections'
     ]
     custom_settings = {
         'FEED_URI': 'cia.json',
