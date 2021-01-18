@@ -1,0 +1,4 @@
+-Decoradores: permiten extender y modificar el fucnionamiento de las funciones.
+	      envuelven a otra funcion y permiten ejecutar codigo antes y depsues de llamar a la funcion.
+
+-

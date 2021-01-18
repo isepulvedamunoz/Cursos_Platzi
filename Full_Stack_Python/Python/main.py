@@ -1,20 +1,35 @@
 import sys
+import csv
+import os
 
-clients = [
-    {
-        'name': 'Pablo',
-        'company': 'Google',
-        'email': 'pablo@google.com',
-        'position': 'Software engineer'
-    },
-    {
-        'name': 'Ignacio',
-        'company': 'Facebook',
-        'email': 'ignacio@facebook.com',
-        'position': 'Data Engineer'
-    }
-]
 
+CLIENT_SCHEMA = ['name','company', 'email', 'position']
+CLIENT_TABLE = '.clients.csv'
+
+clients = []
+
+
+def _initialize_clients_from_storage():
+    with open(CLIENT_TABLE, mode='r') as f:
+        reader = csv.DictReader(f, fieldnames=CLIENT_SCHEMA)
+
+        for row in reader:
+            clients.append(row)
+
+
+def _save_clients_to_storage():
+    tmp_table_name = '{}.tmp'.format(CLIENT_TABLE)
+    with open(tmp_table_name, mode='w') as f:
+        writer = csv.DictWriter(f, fieldnames=CLIENT_SCHEMA)
+        writer.writerows(clients)
+
+
+        os.remove(CLIENT_TABLE)
+        f.close()
+        os.rename(tmp_table_name, CLIENT_TABLE)
+
+
+    
 def create_client(client):
     global clients
 
@@ -37,9 +52,12 @@ def _print_welcome():
 
 
 def list_clients():
+    print('uid | name | company | email | position')
+    print('*'*50)
+    
     for idx, client in enumerate(clients):
         print('{uid} | {name} | {company} | {email} | {position}'.format(
-            uid=uix,
+            uid=idx,
             name=client['name'],
             company=client['company'],
             email=client['email'],
@@ -100,6 +118,8 @@ def _get_client_name():
 
 
 if __name__ == '__main__':
+
+    _initialize_clients_from_storage()
     _print_welcome()
 
     command = input()
@@ -113,7 +133,7 @@ if __name__ == '__main__':
             'position': _get_client_field('position')
         }
         create_client(client)
-        list_clients()
+      
 
     elif command == 'L':
         list_clients()
@@ -121,14 +141,14 @@ if __name__ == '__main__':
     elif command == 'D':
         client_name = _get_client_name()
         delete_client(client_name)
-        list_clients()
+        
 
 
     elif command == 'U':
         client_name = _get_client_name()
         updated_client_name = input('What is the update client name?')
         update_client(client_name, updated_client_name)
-        list_clients()
+        
 
     elif command == 'S':
         client_name = _get_client_name()
@@ -142,4 +162,7 @@ if __name__ == '__main__':
 
     else:
         print('Invalid command!')
+    
+
+    _save_clients_to_storage()
 
